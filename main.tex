@@ -1,0 +1,179 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{anyfontsize}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.3in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Font sizes
+\newcommand{\bodyfont}{\fontsize{11.5}{13}\selectfont}
+
+\titleformat{\section}{
+  \vspace{1pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\bodyfont{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\bodyfont #1} & \bodyfont #2 \\
+      \textit{\fontsize{10.5}{12}\selectfont #3} & \textit{\fontsize{10.5}{12}\selectfont #4} \\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\fontsize{10.5}{12}\selectfont #1} & \textit{\fontsize{10.5}{12}\selectfont #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \bodyfont #1 & \bodyfont #2 \\
+    \end{tabular*}\vspace{1pt}
+}
+
+\newcommand{\resumeSingleHeading}[1]{
+  \item {\textbf{\bodyfont #1} \vspace{-4pt}}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%------------------------PROFILE----------------------------
+\begin{center}
+	{\LARGE \scshape Rudradeb Das} \\ \vspace{1pt}
+	Shyamnagar, West Bengal, India \\ \vspace{1pt}
+	{\raisebox{0.05\height}\faPhone\ +91 6289385279} ~ \href{mailto:debrudra9163@gmail.com}{\raisebox{0.05\height}\faEnvelope\ debrudra9163@gmail.com} ~
+	\href{https://linkedin.com/in/rudradeb-das-86858b222}{\raisebox{0.05\height}\faLinkedin\ linkedin}
+	\vspace{-6pt}
+\end{center}
+
+%------------------------SUMMARY----------------------------
+\section{Summary}
+\resumeSubHeadingListStart
+  \item{
+    \bodyfont Enthusiastic and driven Computer Science fresher with a passion for Web Development and Data Science. Eager to apply academic knowledge in real-world scenarios while learning and growing in a dynamic professional environment.
+  }
+\resumeSubHeadingListEnd
+
+%------------------------EDUCATION----------------------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Techno Main Salt Lake, Kolkata, West Bengal}{CGPA: 8.44 (Till Date)}
+{B.Tech - Computer Science and Engineering (Artificial Intelligence \& Machine Learning)}{2025}
+\resumeSubheading
+{Ichapur Northland High School, Ichapur, West Bengal}{Grade: 76.2\%}
+{Class 12th}{2020}
+\resumeSubheading
+{Ramakrishna Vivekananda Mission Schools, Barrackpore, West Bengal}{Grade: 63.2\%}
+{Class 10th}{2018}
+\resumeSubHeadingListEnd
+
+%------------------------PROJECTS----------------------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+      {\textbf{Travel Website} $|$ \emph{HTML, CSS, JavaScript, Tailwind CSS}}{\href{https://67d981d8b3c99812ca97095a--melodious-arithmetic-e486cc.netlify.app/}{\underline{Live Demo}}}
+      \resumeItemListStart
+        \resumeItem{Developed an interactive travel-themed web application with responsive design and dynamic content.}
+        \resumeItem{Utilized Tailwind CSS to create a visually appealing and user-friendly interface.}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+      {\textbf{Data Analytics Projects} $|$ \emph{MySQL, Python}}{}
+      \resumeItemListStart
+        \resumeItem{Performed in-depth data analysis using Python and SQL on real-world datasets.}
+        \resumeItem{Projects include: Instagram User Analytics, IMDB Movie Analytics, Bank Loan Case Analytics.}
+        \resumeItem{Utilized libraries such as pandas and matplotlib for data cleaning and visualization.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%------------------------PROFESSIONAL EXPERIENCE----------------------------
+\section{Professional Experience}
+\resumeSubHeadingListStart
+  \resumeSingleHeading{Data Analytics Internship and Training, \textit{Tranity}}
+    \resumeItemListStart
+      \resumeItem{Completed training and internship in Data Analytics, covering data visualization.}
+      \resumeItem{\href{https://drive.google.com/file/d/1012RWv_Z4LEHT8EJ7XSolast0kRAIw9E/view?usp=sharing}{\underline{View Training Certificate}}}
+      \resumeItem{\href{https://drive.google.com/file/d/17vg045sTIldV4R9hIqOv7KynzJAtiGJG/view?usp=sharing}{\underline{View Live Mini Project Certificate}}}
+      \resumeItem{\href{https://drive.google.com/file/d/1Ily5FjQ05kETYrq1gO9yjwY31CBkoEhd/view?usp=sharing}{\underline{View Internship Completion Certificate}}}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%------------------------TECHNICAL SKILLS----------------------------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \bodyfont
+  \item{
+    \textbf{Languages}{: Python, C, SQL, HTML, CSS, JavaScript} \\
+    \textbf{Frameworks \& Libraries}{: React.js, Pandas, NumPy, Matplotlib} \\
+    \textbf{Tools \& Databases}{: MongoDB, MySQL, VS Code, Git} \\
+    \textbf{Data Skills}{: Machine Learning, Data Visualization, Data Preparation} \\
+    \textbf{Soft Skills}{: Problem Solving, Collaboration, Communication, Adaptability, Time Management}
+  }
+\end{itemize}
+
+%------------------------INTERESTS AND LANGUAGES----------------------------
+\section{Interests \& Languages}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \bodyfont
+  \item{
+    \textbf{Interests}{: Programming, Web Development, Data Science} \\
+    \textbf{Languages Known}{: English, Bengali, Hindi}
+  }
+\end{itemize}
+
+\end{document}
